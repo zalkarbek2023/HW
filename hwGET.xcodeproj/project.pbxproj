@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7872E8B429BD8DDB00F3BA1B /* FlashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7872E8B329BD8DDB00F3BA1B /* FlashModel.swift */; };
+		7872E8BB29BD906300F3BA1B /* FlashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7872E8BA29BD906300F3BA1B /* FlashViewModel.swift */; };
+		7872E8BE29BD90BC00F3BA1B /* FlashSaleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7872E8BC29BD90BC00F3BA1B /* FlashSaleCollectionViewCell.swift */; };
+		7872E8BF29BD90BC00F3BA1B /* FlashSaleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7872E8BD29BD90BC00F3BA1B /* FlashSaleCollectionViewCell.xib */; };
 		78752ED929BCD3C000EDB6F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78752ED829BCD3C000EDB6F5 /* AppDelegate.swift */; };
 		78752EDB29BCD3C000EDB6F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78752EDA29BCD3C000EDB6F5 /* SceneDelegate.swift */; };
 		78752EDD29BCD3C000EDB6F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78752EDC29BCD3C000EDB6F5 /* ViewController.swift */; };
 		78752EE029BCD3C000EDB6F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78752EDE29BCD3C000EDB6F5 /* Main.storyboard */; };
 		78752EE229BCD3C100EDB6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78752EE129BCD3C100EDB6F5 /* Assets.xcassets */; };
 		78752EE529BCD3C100EDB6F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78752EE329BCD3C100EDB6F5 /* LaunchScreen.storyboard */; };
+		78752EF929BCD69700EDB6F5 /* latestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78752EF829BCD69700EDB6F5 /* latestModel.swift */; };
+		78752EFB29BCD7CB00EDB6F5 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78752EFA29BCD7CB00EDB6F5 /* NetworkService.swift */; };
+		78752EFD29BCD7F400EDB6F5 /* NetworkHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78752EFC29BCD7F400EDB6F5 /* NetworkHelpers.swift */; };
+		78752EFF29BCD81A00EDB6F5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78752EFE29BCD81A00EDB6F5 /* Constants.swift */; };
+		78752F0129BCD8DF00EDB6F5 /* LatestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78752F0029BCD8DF00EDB6F5 /* LatestViewModel.swift */; };
+		78752F0729BCDA5F00EDB6F5 /* LatestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78752F0529BCDA5F00EDB6F5 /* LatestCollectionViewCell.swift */; };
+		78752F0829BCDA5F00EDB6F5 /* LatestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78752F0629BCDA5F00EDB6F5 /* LatestCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7872E8B329BD8DDB00F3BA1B /* FlashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashModel.swift; sourceTree = "<group>"; };
+		7872E8BA29BD906300F3BA1B /* FlashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashViewModel.swift; sourceTree = "<group>"; };
+		7872E8BC29BD90BC00F3BA1B /* FlashSaleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashSaleCollectionViewCell.swift; sourceTree = "<group>"; };
+		7872E8BD29BD90BC00F3BA1B /* FlashSaleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlashSaleCollectionViewCell.xib; sourceTree = "<group>"; };
 		78752ED529BCD3C000EDB6F5 /* hwGET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hwGET.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78752ED829BCD3C000EDB6F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78752EDA29BCD3C000EDB6F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,13 @@
 		78752EE129BCD3C100EDB6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78752EE429BCD3C100EDB6F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78752EE629BCD3C100EDB6F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78752EF829BCD69700EDB6F5 /* latestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = latestModel.swift; sourceTree = "<group>"; };
+		78752EFA29BCD7CB00EDB6F5 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		78752EFC29BCD7F400EDB6F5 /* NetworkHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelpers.swift; sourceTree = "<group>"; };
+		78752EFE29BCD81A00EDB6F5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		78752F0029BCD8DF00EDB6F5 /* LatestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestViewModel.swift; sourceTree = "<group>"; };
+		78752F0529BCDA5F00EDB6F5 /* LatestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestCollectionViewCell.swift; sourceTree = "<group>"; };
+		78752F0629BCDA5F00EDB6F5 /* LatestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LatestCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7872E8B229BD8DC400F3BA1B /* FlashModel */ = {
+			isa = PBXGroup;
+			children = (
+				7872E8B329BD8DDB00F3BA1B /* FlashModel.swift */,
+			);
+			path = FlashModel;
+			sourceTree = "<group>";
+		};
+		7872E8B529BD8F9200F3BA1B /* FlashComponents */ = {
+			isa = PBXGroup;
+			children = (
+				7872E8BC29BD90BC00F3BA1B /* FlashSaleCollectionViewCell.swift */,
+				7872E8BD29BD90BC00F3BA1B /* FlashSaleCollectionViewCell.xib */,
+			);
+			path = FlashComponents;
+			sourceTree = "<group>";
+		};
+		7872E8B629BD8FB000F3BA1B /* FlashViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7872E8BA29BD906300F3BA1B /* FlashViewModel.swift */,
+			);
+			path = FlashViewModel;
+			sourceTree = "<group>";
+		};
 		78752ECC29BCD3C000EDB6F5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +103,129 @@
 		78752ED729BCD3C000EDB6F5 /* hwGET */ = {
 			isa = PBXGroup;
 			children = (
+				78752EF129BCD43700EDB6F5 /* Constants */,
+				78752EF029BCD43100EDB6F5 /* Services */,
+				78752EEF29BCD42900EDB6F5 /* DTOs */,
+				78752EEE29BCD41000EDB6F5 /* WorkFlows */,
+				78752EED29BCD3D500EDB6F5 /* Resourses */,
+				78752EEC29BCD3CA00EDB6F5 /* App */,
+			);
+			path = hwGET;
+			sourceTree = "<group>";
+		};
+		78752EEC29BCD3CA00EDB6F5 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				78752ED829BCD3C000EDB6F5 /* AppDelegate.swift */,
 				78752EDA29BCD3C000EDB6F5 /* SceneDelegate.swift */,
-				78752EDC29BCD3C000EDB6F5 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		78752EED29BCD3D500EDB6F5 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
 				78752EDE29BCD3C000EDB6F5 /* Main.storyboard */,
 				78752EE129BCD3C100EDB6F5 /* Assets.xcassets */,
 				78752EE329BCD3C100EDB6F5 /* LaunchScreen.storyboard */,
 				78752EE629BCD3C100EDB6F5 /* Info.plist */,
 			);
-			path = hwGET;
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		78752EEE29BCD41000EDB6F5 /* WorkFlows */ = {
+			isa = PBXGroup;
+			children = (
+				78752F0229BCD95300EDB6F5 /* ViewController */,
+				78752EF429BCD4D900EDB6F5 /* LatestWorkFlow */,
+				78752EF329BCD4C200EDB6F5 /* FlashWorkFlow */,
+			);
+			path = WorkFlows;
+			sourceTree = "<group>";
+		};
+		78752EEF29BCD42900EDB6F5 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				7872E8B229BD8DC400F3BA1B /* FlashModel */,
+				78752EF729BCD68000EDB6F5 /* LatestModel */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		78752EF029BCD43100EDB6F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				78752EF229BCD46B00EDB6F5 /* NetworkService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		78752EF129BCD43700EDB6F5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				78752EFE29BCD81A00EDB6F5 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		78752EF229BCD46B00EDB6F5 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				78752EFA29BCD7CB00EDB6F5 /* NetworkService.swift */,
+				78752EFC29BCD7F400EDB6F5 /* NetworkHelpers.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		78752EF329BCD4C200EDB6F5 /* FlashWorkFlow */ = {
+			isa = PBXGroup;
+			children = (
+				7872E8B629BD8FB000F3BA1B /* FlashViewModel */,
+				7872E8B529BD8F9200F3BA1B /* FlashComponents */,
+			);
+			path = FlashWorkFlow;
+			sourceTree = "<group>";
+		};
+		78752EF429BCD4D900EDB6F5 /* LatestWorkFlow */ = {
+			isa = PBXGroup;
+			children = (
+				78752EF629BCD58C00EDB6F5 /* LatestViewModel */,
+				78752EF529BCD52900EDB6F5 /* LatestComponents */,
+			);
+			path = LatestWorkFlow;
+			sourceTree = "<group>";
+		};
+		78752EF529BCD52900EDB6F5 /* LatestComponents */ = {
+			isa = PBXGroup;
+			children = (
+				78752F0529BCDA5F00EDB6F5 /* LatestCollectionViewCell.swift */,
+				78752F0629BCDA5F00EDB6F5 /* LatestCollectionViewCell.xib */,
+			);
+			path = LatestComponents;
+			sourceTree = "<group>";
+		};
+		78752EF629BCD58C00EDB6F5 /* LatestViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				78752F0029BCD8DF00EDB6F5 /* LatestViewModel.swift */,
+			);
+			path = LatestViewModel;
+			sourceTree = "<group>";
+		};
+		78752EF729BCD68000EDB6F5 /* LatestModel */ = {
+			isa = PBXGroup;
+			children = (
+				78752EF829BCD69700EDB6F5 /* latestModel.swift */,
+			);
+			path = LatestModel;
+			sourceTree = "<group>";
+		};
+		78752F0229BCD95300EDB6F5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				78752EDC29BCD3C000EDB6F5 /* ViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				78752EE529BCD3C100EDB6F5 /* LaunchScreen.storyboard in Resources */,
+				78752F0829BCDA5F00EDB6F5 /* LatestCollectionViewCell.xib in Resources */,
 				78752EE229BCD3C100EDB6F5 /* Assets.xcassets in Resources */,
+				7872E8BF29BD90BC00F3BA1B /* FlashSaleCollectionViewCell.xib in Resources */,
 				78752EE029BCD3C000EDB6F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +301,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7872E8BB29BD906300F3BA1B /* FlashViewModel.swift in Sources */,
+				78752EFD29BCD7F400EDB6F5 /* NetworkHelpers.swift in Sources */,
+				7872E8BE29BD90BC00F3BA1B /* FlashSaleCollectionViewCell.swift in Sources */,
+				78752F0129BCD8DF00EDB6F5 /* LatestViewModel.swift in Sources */,
+				78752EFB29BCD7CB00EDB6F5 /* NetworkService.swift in Sources */,
 				78752EDD29BCD3C000EDB6F5 /* ViewController.swift in Sources */,
 				78752ED929BCD3C000EDB6F5 /* AppDelegate.swift in Sources */,
+				78752EFF29BCD81A00EDB6F5 /* Constants.swift in Sources */,
+				7872E8B429BD8DDB00F3BA1B /* FlashModel.swift in Sources */,
+				78752F0729BCDA5F00EDB6F5 /* LatestCollectionViewCell.swift in Sources */,
+				78752EF929BCD69700EDB6F5 /* latestModel.swift in Sources */,
 				78752EDB29BCD3C000EDB6F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +461,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2X83VDWRY6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = hwGET/Info.plist;
+				INFOPLIST_FILE = hwGET/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +489,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2X83VDWRY6;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = hwGET/Info.plist;
+				INFOPLIST_FILE = hwGET/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
