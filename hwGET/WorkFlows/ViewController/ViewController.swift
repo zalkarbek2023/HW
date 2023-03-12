@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     private func fetchLatest() {
         Task {
             do {
-                latestViewModel.latest = try await latestViewModel.fetchCarts()
+                latestViewModel.latest = try await latestViewModel.fetchLatest()
                 DispatchQueue.main.async {
                     self.latestCollectionView.reloadData()
                 }
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
                     self.flashCollectionView.reloadData()
                 }
             } catch {
-                print(error.localizedDescription)
+                print("Error \(error.localizedDescription)")
             }
         }
     }

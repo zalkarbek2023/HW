@@ -33,7 +33,8 @@ class FlashSaleCollectionViewCell: UICollectionViewCell {
         
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
             if let error = error {
-                print(error.localizedDescription)
+                print("Error \(error.localizedDescription)")
+               
             }
             guard let data = data else { return }
             

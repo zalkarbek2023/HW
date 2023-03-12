@@ -13,7 +13,7 @@ class LatestViewModel {
     
     var latest: [LatestModel] = []
     
-    func fetchCarts() async throws -> [LatestModel] {
+    func fetchLatest() async throws -> [LatestModel] {
         return try await networkService.fetchLatest()
     }
 }
